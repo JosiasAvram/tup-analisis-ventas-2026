@@ -2,6 +2,7 @@
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
 
 # Checkpoints de Jupyter / Colab
 .ipynb_checkpoints/
@@ -9,7 +10,27 @@ __pycache__/
 # Logs y temporales
 *.log
 *.tmp
+*.bak
 
 # Archivos de sistema
 .DS_Store
 Thumbs.db
+desktop.ini
+
+# Archivos de credenciales (NUNCA deben subirse al repo)
+*.env
+.env.local
+credentials.json
+*.token
+mi_token.txt
+secrets/
+
+# Archivos de IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos grandes que no deberian versionarse
+*.zip
+*.tar.gz
